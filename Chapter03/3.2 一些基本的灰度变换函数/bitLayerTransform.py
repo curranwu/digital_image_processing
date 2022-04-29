@@ -37,7 +37,7 @@ def bitLayerTransform(image, layerNum):
 
 
 if __name__ == '__main__':
-    img = cv2.imread('../pic/Fig0314(a)(100-dollars).tif', 0)
+    img = cv2.imread('Chapter03/pic/Fig0314(a)(100-dollars).tif', 0)
     bit_img1 = bitLayerTransform(img, 1)
     bit_img2 = bitLayerTransform(img, 2)
     bit_img3 = bitLayerTransform(img, 3)
